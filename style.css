@@ -1,0 +1,140 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(0, 0%, 50%);
+    background-image: url(back2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+form{   
+    position: relative;   
+    top: 50px;
+    background-color: hsl(0, 0%, 90%);
+    max-width: 40%;
+    margin: auto;
+}
+
+.info{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0px 40px;
+    font-weight: bold;
+    color: hsl(0, 0%, 20%);;
+}
+
+.btnContainer{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.save{
+    font-size: 1.4rem;
+    border-radius: 4px;
+    background-color: hsl(0, 0%, 30%);
+    color: antiquewhite;
+    font-weight: bold;
+}
+.save:hover{
+    background-color: hsl(0, 0%, 45%);
+}
+.save:active{
+    background-color: hsl(0, 0%, 65%);
+}
+
+#guess{
+    font-size: 1.25rem;
+    text-align: center;
+    height: 1.25rem;
+}
+
+.guess_container{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 2.15rem;
+    color: blue;
+}
+
+#result{
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#abuse{
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.foot{
+    position: relative;
+    top: 50px;
+    width: 40%;
+    margin: auto;
+    background-color: hsl(0, 0%, 30%);
+    color: antiquewhite;
+    text-align: center;
+}
+
+@media only screen and (max-width: 786px) {
+    form{   
+
+        position: relative;   
+        top: 50px;
+        background-color: hsl(0, 0%, 90%);
+        max-width: 80%;
+        height: 45vh;
+        margin: auto;
+    }
+
+    #guess{
+        font-size: 1.25rem;
+        text-align: center;
+        height: 1.25rem;
+        max-width: 200px;
+    }
+    .info{
+        position: relative;
+        top: 20px;
+        text-align: center;
+        font-size: 2.2rem;
+        margin: 0px 40px;
+        font-weight: bold;
+        color: hsl(0, 0%, 20%);;
+    }
+    .guess_container{
+        text-align: center;
+        margin: 20px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: blue;
+    }
+    .save{
+        font-size: 1rem;
+        border-radius: 4px;
+        background-color: hsl(0, 0%, 30%);
+        color: antiquewhite;
+        font-weight: bold;
+    }
+    .foot{
+        position: relative;
+        top: 60px;
+        width: 40%;
+        margin: auto;
+        background-color: hsl(0, 0%, 30%);
+        color: antiquewhite;
+        text-align: center;
+    }
+}
